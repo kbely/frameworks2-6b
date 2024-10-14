@@ -1,3 +1,5 @@
+import { Container } from "react-bootstrap";
+
 export default function Footer(){
-    return <div>menu</div>
+    return <Container>menu</Container>
 }
