@@ -1,0 +1,5 @@
+.footerGradiente{
+    background: rgb(11,129,252);
+    background: linear-gradient(90deg, rgba(11,129,252,1) 0%, rgba(57,220,218,1) 23%, rgba(126,206,247,1) 49%, rgba(66,195,203,1) 62%, rgba(11,189,233,1) 77%, rgba(75,108,207,1) 100%);;
+}
+
