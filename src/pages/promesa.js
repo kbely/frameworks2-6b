@@ -10,11 +10,11 @@ export default function Promesa(){
         setPrometido("é divida")
         document.title= "promessa é divida"
 
-    },2000);
+    },3500);
     return <> 
     <Menu />
     <Container>
-        Promesa {prometido==="" ? "<carregando>" : prometido}
+        Promesa {prometido==="" ? <img src="./loading.gif" widht={100} height={100}/> : prometido}
     </Container>
     <Footer/>
     </>
